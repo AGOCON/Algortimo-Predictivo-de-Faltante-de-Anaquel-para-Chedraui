@@ -1,4 +1,4 @@
-# Algortimo Chedraui
+# Algortimo Predictivo de Faltante de Anaquel para Chedraui
 
 
 ## Objetivo
@@ -32,4 +32,3 @@ Las auditorías de tienda de Ago para la compañía Chedraui producen informaci�
 
 ### Responsable de este Repositorio:
 * Ramiro López
-
