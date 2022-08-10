@@ -34,3 +34,4 @@ Las auditorías de tienda de Ago para la compañía Chedraui producen informaci�
 * Ramiro López
 
 
+# Algortimo-Predictivo-de-Faltante-de-Anaquel-para-Chedraui
