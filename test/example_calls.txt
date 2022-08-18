@@ -1,0 +1,11 @@
+# POST method predict
+curl -d '{"fiIdTienda":789,"fiEvento":3,"fiPeriodo":202206,"SKU":3716885,"Tienda":SUPER CHEDRAUI SELECTO JUAN PABLO II VER,"FORMATO":SUPER CHEDRAUI CD,"REGION":VERACRUZ,"Categoria":ACCESORIOS,"Proveedor":DISTRIBUIDORA MAIKAI SA DE CV (41869),"DEPTO":ABARROTES,"TipoResurtible":RC,"Año":2022,"Mes":6,"Sem":26,"DiaSem":3,"DiaMes":22,"DiaAño":173,"Decil":9,"Importado":1,"MarcaPropia":0,"EnOferta":0,"Existencia":7,"fiDesplazamiento":25,"VentaPromedio":625.0}' \
+     -H "Content-Type: application/json" \
+     -XPOST http://0.0.0.0:8000/predict
+
+# GET method info
+curl -XGET http://localhost:8000/info
+
+# GET method health
+curl -XGET http://localhost:8000/health
+
